@@ -1,0 +1,1 @@
+E:\Computer Programming\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
