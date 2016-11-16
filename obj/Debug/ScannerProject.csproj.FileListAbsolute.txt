@@ -1,1 +1,2 @@
 E:\Computer Programming\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
+D:\Visual Studio Projects\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
