@@ -1,3 +1,11 @@
 E:\Computer Programming\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
-D:\Visual Studio Projects\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
 C:\VS15\ScannerProject\ScannerProject\bin\Debug\ScannerProject.exe.config
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.csprojResolveAssemblyReference.cache
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.Form1.resources
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.Properties.Resources.resources
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.csproj.GenerateResource.Cache
+D:\Visual Studio Projects\C#\ScannerProject\bin\Debug\ScannerProject.exe.config
+D:\Visual Studio Projects\C#\ScannerProject\bin\Debug\ScannerProject.exe
+D:\Visual Studio Projects\C#\ScannerProject\bin\Debug\ScannerProject.pdb
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.exe
+D:\Visual Studio Projects\C#\ScannerProject\obj\Debug\ScannerProject.pdb
