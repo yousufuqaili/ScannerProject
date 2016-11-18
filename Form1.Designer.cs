@@ -28,196 +28,208 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            this.textBox_TeacherLogin = new System.Windows.Forms.TextBox();
+            this.listBox_Pending = new System.Windows.Forms.ListBox();
+            this.l_TeacherLogin = new System.Windows.Forms.Label();
+            this.l_CourseCode = new System.Windows.Forms.Label();
+            this.l_Pending = new System.Windows.Forms.Label();
+            this.l_CheckedIn = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox_AutoTimer = new System.Windows.Forms.CheckBox();
+            this.listBox_CheckedIn = new System.Windows.Forms.ListBox();
+            this.listBox_Excused = new System.Windows.Forms.ListBox();
+            this.l_Clock = new System.Windows.Forms.Label();
+            this.timer_Clock = new System.Windows.Forms.Timer(this.components);
+            this.button_StartTimer = new System.Windows.Forms.Button();
+            this.l_TeacherPass = new System.Windows.Forms.Label();
+            this.textBox_TeacherPassword = new System.Windows.Forms.TextBox();
+            this.b_SubmitInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox_TeacherLogin
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.textBox1.Location = new System.Drawing.Point(326, 445);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(285, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBox_TeacherLogin.Location = new System.Drawing.Point(30, 28);
+            this.textBox_TeacherLogin.Name = "textBox_TeacherLogin";
+            this.textBox_TeacherLogin.Size = new System.Drawing.Size(231, 20);
+            this.textBox_TeacherLogin.TabIndex = 1;
             // 
-            // textBox2
+            // listBox_Pending
             // 
-            this.textBox2.Location = new System.Drawing.Point(30, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(285, 20);
-            this.textBox2.TabIndex = 1;
+            this.listBox_Pending.FormattingEnabled = true;
+            this.listBox_Pending.Location = new System.Drawing.Point(30, 154);
+            this.listBox_Pending.Name = "listBox_Pending";
+            this.listBox_Pending.Size = new System.Drawing.Size(195, 238);
+            this.listBox_Pending.TabIndex = 2;
             // 
-            // listBox1
+            // l_TeacherLogin
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(30, 174);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(285, 238);
-            this.listBox1.TabIndex = 2;
+            this.l_TeacherLogin.AutoSize = true;
+            this.l_TeacherLogin.Location = new System.Drawing.Point(27, 12);
+            this.l_TeacherLogin.Name = "l_TeacherLogin";
+            this.l_TeacherLogin.Size = new System.Drawing.Size(76, 13);
+            this.l_TeacherLogin.TabIndex = 4;
+            this.l_TeacherLogin.Text = "Teacher Login";
             // 
-            // listView1
+            // l_CourseCode
             // 
-            this.listView1.Location = new System.Drawing.Point(326, 174);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(285, 238);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.l_CourseCode.AutoSize = true;
+            this.l_CourseCode.Location = new System.Drawing.Point(427, 9);
+            this.l_CourseCode.Name = "l_CourseCode";
+            this.l_CourseCode.Size = new System.Drawing.Size(68, 13);
+            this.l_CourseCode.TabIndex = 8;
+            this.l_CourseCode.Text = "Course Code";
             // 
-            // label1
+            // l_Pending
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Teacher Login";
+            this.l_Pending.AutoSize = true;
+            this.l_Pending.Location = new System.Drawing.Point(104, 138);
+            this.l_Pending.Name = "l_Pending";
+            this.l_Pending.Size = new System.Drawing.Size(46, 13);
+            this.l_Pending.TabIndex = 11;
+            this.l_Pending.Text = "Pending";
             // 
-            // dateTimePicker1
+            // l_CheckedIn
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(617, 94);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(326, 94);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 35);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "na";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Teach info";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 69);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Course Code";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(703, 517);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 41);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Late";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // listView2
-            // 
-            this.listView2.Location = new System.Drawing.Point(617, 174);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(285, 238);
-            this.listView2.TabIndex = 10;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 158);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Pending";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(323, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Checked in";
+            this.l_CheckedIn.AutoSize = true;
+            this.l_CheckedIn.Location = new System.Drawing.Point(297, 138);
+            this.l_CheckedIn.Name = "l_CheckedIn";
+            this.l_CheckedIn.Size = new System.Drawing.Size(62, 13);
+            this.l_CheckedIn.TabIndex = 12;
+            this.l_CheckedIn.Text = "Checked In";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(614, 158);
+            this.label6.Location = new System.Drawing.Point(505, 138);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 13);
             this.label6.TabIndex = 13;
             this.label6.Text = "Excused";
             // 
-            // checkBox1
+            // checkBox_AutoTimer
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(531, 94);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 14;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox_AutoTimer.AutoSize = true;
+            this.checkBox_AutoTimer.Location = new System.Drawing.Point(430, 54);
+            this.checkBox_AutoTimer.Name = "checkBox_AutoTimer";
+            this.checkBox_AutoTimer.Size = new System.Drawing.Size(77, 17);
+            this.checkBox_AutoTimer.TabIndex = 14;
+            this.checkBox_AutoTimer.Text = "Auto Timer";
+            this.checkBox_AutoTimer.UseVisualStyleBackColor = true;
+            // 
+            // listBox_CheckedIn
+            // 
+            this.listBox_CheckedIn.FormattingEnabled = true;
+            this.listBox_CheckedIn.Location = new System.Drawing.Point(231, 154);
+            this.listBox_CheckedIn.Name = "listBox_CheckedIn";
+            this.listBox_CheckedIn.Size = new System.Drawing.Size(195, 238);
+            this.listBox_CheckedIn.TabIndex = 15;
+            // 
+            // listBox_Excused
+            // 
+            this.listBox_Excused.FormattingEnabled = true;
+            this.listBox_Excused.Location = new System.Drawing.Point(432, 154);
+            this.listBox_Excused.Name = "listBox_Excused";
+            this.listBox_Excused.Size = new System.Drawing.Size(195, 238);
+            this.listBox_Excused.TabIndex = 16;
+            // 
+            // l_Clock
+            // 
+            this.l_Clock.AutoSize = true;
+            this.l_Clock.Location = new System.Drawing.Point(559, 9);
+            this.l_Clock.Name = "l_Clock";
+            this.l_Clock.Size = new System.Drawing.Size(34, 13);
+            this.l_Clock.TabIndex = 17;
+            this.l_Clock.Text = "Clock";
+            // 
+            // timer_Clock
+            // 
+            this.timer_Clock.Enabled = true;
+            this.timer_Clock.Interval = 1;
+            this.timer_Clock.Tick += new System.EventHandler(this.timer_Clock_Tick);
+            // 
+            // button_StartTimer
+            // 
+            this.button_StartTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_StartTimer.Location = new System.Drawing.Point(518, 48);
+            this.button_StartTimer.Name = "button_StartTimer";
+            this.button_StartTimer.Size = new System.Drawing.Size(75, 30);
+            this.button_StartTimer.TabIndex = 18;
+            this.button_StartTimer.Text = "Start Timer";
+            this.button_StartTimer.UseVisualStyleBackColor = true;
+            // 
+            // l_TeacherPass
+            // 
+            this.l_TeacherPass.AutoSize = true;
+            this.l_TeacherPass.Location = new System.Drawing.Point(30, 55);
+            this.l_TeacherPass.Name = "l_TeacherPass";
+            this.l_TeacherPass.Size = new System.Drawing.Size(96, 13);
+            this.l_TeacherPass.TabIndex = 19;
+            this.l_TeacherPass.Text = "Teacher Password";
+            // 
+            // textBox_TeacherPassword
+            // 
+            this.textBox_TeacherPassword.Location = new System.Drawing.Point(30, 71);
+            this.textBox_TeacherPassword.Name = "textBox_TeacherPassword";
+            this.textBox_TeacherPassword.PasswordChar = '*';
+            this.textBox_TeacherPassword.Size = new System.Drawing.Size(231, 20);
+            this.textBox_TeacherPassword.TabIndex = 20;
+            // 
+            // b_SubmitInfo
+            // 
+            this.b_SubmitInfo.Location = new System.Drawing.Point(268, 28);
+            this.b_SubmitInfo.Name = "b_SubmitInfo";
+            this.b_SubmitInfo.Size = new System.Drawing.Size(69, 63);
+            this.b_SubmitInfo.TabIndex = 21;
+            this.b_SubmitInfo.Text = "Submit";
+            this.b_SubmitInfo.UseVisualStyleBackColor = true;
+            this.b_SubmitInfo.Click += new System.EventHandler(this.b_SubmitInfo_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 570);
-            this.Controls.Add(this.checkBox1);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(656, 404);
+            this.Controls.Add(this.b_SubmitInfo);
+            this.Controls.Add(this.textBox_TeacherPassword);
+            this.Controls.Add(this.l_TeacherPass);
+            this.Controls.Add(this.button_StartTimer);
+            this.Controls.Add(this.l_Clock);
+            this.Controls.Add(this.listBox_Excused);
+            this.Controls.Add(this.listBox_CheckedIn);
+            this.Controls.Add(this.checkBox_AutoTimer);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.listView2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.l_CheckedIn);
+            this.Controls.Add(this.l_Pending);
+            this.Controls.Add(this.l_CourseCode);
+            this.Controls.Add(this.l_TeacherLogin);
+            this.Controls.Add(this.listBox_Pending);
+            this.Controls.Add(this.textBox_TeacherLogin);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Late Buster";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox_TeacherLogin;
+        private System.Windows.Forms.ListBox listBox_Pending;
+        private System.Windows.Forms.Label l_TeacherLogin;
+        private System.Windows.Forms.Label l_CourseCode;
+        private System.Windows.Forms.Label l_Pending;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox_AutoTimer;
+        private System.Windows.Forms.Label l_CheckedIn;
+        private System.Windows.Forms.ListBox listBox_CheckedIn;
+        private System.Windows.Forms.ListBox listBox_Excused;
+        private System.Windows.Forms.Label l_Clock;
+        private System.Windows.Forms.Timer timer_Clock;
+        private System.Windows.Forms.Button button_StartTimer;
+        private System.Windows.Forms.Label l_TeacherPass;
+        private System.Windows.Forms.TextBox textBox_TeacherPassword;
+        private System.Windows.Forms.Button b_SubmitInfo;
     }
 }
 
