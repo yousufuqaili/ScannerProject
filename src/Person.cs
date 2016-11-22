@@ -1,4 +1,4 @@
-﻿namespace ScannerProject.src
+﻿namespace ScannerProject
 {
     internal abstract class Person
     {

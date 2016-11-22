@@ -1,16 +1,16 @@
-﻿using System.Collections.Generic;
-
-namespace ScannerProject.src
+﻿namespace ScannerProject
 {
     internal class Student : Person
     {
-        private int _numberOfCourses;
+        public string FirstName { set; get; }
+        public string LastName { set; get; }
+        public string ParentEmail { set; get; }
 
-        public List<Course> CoursesStudentHas { get; }
-
-        public Student(int id) : base(id)
+        public Student(string _lastName, string _firstName, int id, string _parentEmail) : base(id)
         {
-            CoursesStudentHas = new List<Course>();
+            LastName = _lastName;
+            FirstName = _firstName;
+            ParentEmail = _parentEmail;
         }
     }
 }

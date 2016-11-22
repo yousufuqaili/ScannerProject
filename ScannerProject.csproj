@@ -55,8 +55,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\Course.cs" />
-    <Compile Include="src\Grade.cs" />
-    <Compile Include="src\GradeManager.cs" />
+    <Compile Include="src\CourseManager.cs" />
+    <Compile Include="src\DataManager.cs" />
     <Compile Include="src\Person.cs" />
     <Compile Include="src\Student.cs" />
     <Compile Include="src\Teacher.cs" />

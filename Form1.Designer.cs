@@ -35,13 +35,10 @@
             this.l_CourseCode = new System.Windows.Forms.Label();
             this.l_Pending = new System.Windows.Forms.Label();
             this.l_CheckedIn = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox_AutoTimer = new System.Windows.Forms.CheckBox();
+            this.checkBox_AutoLate = new System.Windows.Forms.CheckBox();
             this.listBox_CheckedIn = new System.Windows.Forms.ListBox();
-            this.listBox_Excused = new System.Windows.Forms.ListBox();
             this.l_Clock = new System.Windows.Forms.Label();
             this.timer_Clock = new System.Windows.Forms.Timer(this.components);
-            this.button_StartTimer = new System.Windows.Forms.Button();
             this.l_TeacherPass = new System.Windows.Forms.Label();
             this.textBox_TeacherPassword = new System.Windows.Forms.TextBox();
             this.b_SubmitInfo = new System.Windows.Forms.Button();
@@ -74,7 +71,7 @@
             // l_CourseCode
             // 
             this.l_CourseCode.AutoSize = true;
-            this.l_CourseCode.Location = new System.Drawing.Point(427, 9);
+            this.l_CourseCode.Location = new System.Drawing.Point(193, 103);
             this.l_CourseCode.Name = "l_CourseCode";
             this.l_CourseCode.Size = new System.Drawing.Size(68, 13);
             this.l_CourseCode.TabIndex = 8;
@@ -98,24 +95,15 @@
             this.l_CheckedIn.TabIndex = 12;
             this.l_CheckedIn.Text = "Checked In";
             // 
-            // label6
+            // checkBox_AutoLate
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(505, 138);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Excused";
-            // 
-            // checkBox_AutoTimer
-            // 
-            this.checkBox_AutoTimer.AutoSize = true;
-            this.checkBox_AutoTimer.Location = new System.Drawing.Point(430, 54);
-            this.checkBox_AutoTimer.Name = "checkBox_AutoTimer";
-            this.checkBox_AutoTimer.Size = new System.Drawing.Size(77, 17);
-            this.checkBox_AutoTimer.TabIndex = 14;
-            this.checkBox_AutoTimer.Text = "Auto Timer";
-            this.checkBox_AutoTimer.UseVisualStyleBackColor = true;
+            this.checkBox_AutoLate.AutoSize = true;
+            this.checkBox_AutoLate.Location = new System.Drawing.Point(343, 31);
+            this.checkBox_AutoLate.Name = "checkBox_AutoLate";
+            this.checkBox_AutoLate.Size = new System.Drawing.Size(72, 17);
+            this.checkBox_AutoLate.TabIndex = 14;
+            this.checkBox_AutoLate.Text = "Auto Late";
+            this.checkBox_AutoLate.UseVisualStyleBackColor = true;
             // 
             // listBox_CheckedIn
             // 
@@ -124,14 +112,6 @@
             this.listBox_CheckedIn.Name = "listBox_CheckedIn";
             this.listBox_CheckedIn.Size = new System.Drawing.Size(195, 238);
             this.listBox_CheckedIn.TabIndex = 15;
-            // 
-            // listBox_Excused
-            // 
-            this.listBox_Excused.FormattingEnabled = true;
-            this.listBox_Excused.Location = new System.Drawing.Point(432, 154);
-            this.listBox_Excused.Name = "listBox_Excused";
-            this.listBox_Excused.Size = new System.Drawing.Size(195, 238);
-            this.listBox_Excused.TabIndex = 16;
             // 
             // l_Clock
             // 
@@ -147,16 +127,6 @@
             this.timer_Clock.Enabled = true;
             this.timer_Clock.Interval = 1;
             this.timer_Clock.Tick += new System.EventHandler(this.timer_Clock_Tick);
-            // 
-            // button_StartTimer
-            // 
-            this.button_StartTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_StartTimer.Location = new System.Drawing.Point(518, 48);
-            this.button_StartTimer.Name = "button_StartTimer";
-            this.button_StartTimer.Size = new System.Drawing.Size(75, 30);
-            this.button_StartTimer.TabIndex = 18;
-            this.button_StartTimer.Text = "Start Timer";
-            this.button_StartTimer.UseVisualStyleBackColor = true;
             // 
             // l_TeacherPass
             // 
@@ -194,12 +164,9 @@
             this.Controls.Add(this.b_SubmitInfo);
             this.Controls.Add(this.textBox_TeacherPassword);
             this.Controls.Add(this.l_TeacherPass);
-            this.Controls.Add(this.button_StartTimer);
             this.Controls.Add(this.l_Clock);
-            this.Controls.Add(this.listBox_Excused);
             this.Controls.Add(this.listBox_CheckedIn);
-            this.Controls.Add(this.checkBox_AutoTimer);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.checkBox_AutoLate);
             this.Controls.Add(this.l_CheckedIn);
             this.Controls.Add(this.l_Pending);
             this.Controls.Add(this.l_CourseCode);
@@ -219,14 +186,11 @@
         private System.Windows.Forms.Label l_TeacherLogin;
         private System.Windows.Forms.Label l_CourseCode;
         private System.Windows.Forms.Label l_Pending;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox_AutoTimer;
+        private System.Windows.Forms.CheckBox checkBox_AutoLate;
         private System.Windows.Forms.Label l_CheckedIn;
         private System.Windows.Forms.ListBox listBox_CheckedIn;
-        private System.Windows.Forms.ListBox listBox_Excused;
         private System.Windows.Forms.Label l_Clock;
         private System.Windows.Forms.Timer timer_Clock;
-        private System.Windows.Forms.Button button_StartTimer;
         private System.Windows.Forms.Label l_TeacherPass;
         private System.Windows.Forms.TextBox textBox_TeacherPassword;
         private System.Windows.Forms.Button b_SubmitInfo;
