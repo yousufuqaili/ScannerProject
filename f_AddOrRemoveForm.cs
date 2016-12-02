@@ -1,18 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ScannerProject
 {
-    public partial class Form1 : Form
+    public partial class f_AddOrRemoveForm : Form
     {
-        private const string dev = "rohit_rtk@hotmail.com";
-        private const string pass = "1234";
-
-
-        public Form1()
+        public f_AddOrRemoveForm()
         {
             InitializeComponent();
-            KeyPreview = true;
+        }
+
+        private void f_AddOrRemoveForm_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void timer_Clock_Tick(object sender, EventArgs e)
@@ -51,19 +58,6 @@ namespace ScannerProject
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            if (maskedTextBox1.Text.Length > 12)
-            {
-
-
-                string barcode = maskedTextBox1.Text;
-
-            }
-            else
-            {
-                maskedTextBox1.Clear();
-                timer1.Stop();
-
-            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -88,5 +82,7 @@ namespace ScannerProject
             // timer1.Enabled = false;
         }
     }
+
+}
 
 }

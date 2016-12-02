@@ -17,3 +17,5 @@ E:\Computer Programming\C#\ScannerProject\obj\Debug\ScannerProject.csprojResolve
 E:\Computer Programming\C#\ScannerProject\obj\Debug\ScannerProject.Form1.resources
 E:\Computer Programming\C#\ScannerProject\obj\Debug\ScannerProject.Properties.Resources.resources
 E:\Computer Programming\C#\ScannerProject\obj\Debug\ScannerProject.csproj.GenerateResource.Cache
+C:\VS15\ScannerProject\ScannerProject\obj\Debug\ScannerProject.exe
+C:\VS15\ScannerProject\ScannerProject\obj\Debug\ScannerProject.pdb

@@ -42,6 +42,8 @@
             this.l_TeacherPass = new System.Windows.Forms.Label();
             this.textBox_TeacherPassword = new System.Windows.Forms.TextBox();
             this.b_SubmitInfo = new System.Windows.Forms.Button();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // textBox_TeacherLogin
@@ -155,12 +157,28 @@
             this.b_SubmitInfo.UseVisualStyleBackColor = true;
             this.b_SubmitInfo.Click += new System.EventHandler(this.b_SubmitInfo_Click);
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.BeepOnError = true;
+            this.maskedTextBox1.Location = new System.Drawing.Point(442, 372);
+            this.maskedTextBox1.Mask = "00000000000009";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(202, 20);
+            this.maskedTextBox1.TabIndex = 23;
+            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            this.maskedTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.maskedTextBox1_KeyPress);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(656, 404);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.b_SubmitInfo);
             this.Controls.Add(this.textBox_TeacherPassword);
             this.Controls.Add(this.l_TeacherPass);
@@ -175,6 +193,8 @@
             this.Controls.Add(this.textBox_TeacherLogin);
             this.Name = "Form1";
             this.Text = "Late Buster";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,6 +214,8 @@
         private System.Windows.Forms.Label l_TeacherPass;
         private System.Windows.Forms.TextBox textBox_TeacherPassword;
         private System.Windows.Forms.Button b_SubmitInfo;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
